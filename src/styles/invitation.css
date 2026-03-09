@@ -1,0 +1,284 @@
+
+body{
+
+    background-color: rgb(56, 54, 54);
+}
+
+
+#First-icon{
+
+    display: inline-flex;
+    float: left;
+    float: inline-start;
+    margin-left: 60PX;
+    padding-bottom: 40PX;
+    margin-top:50PX ;
+
+
+}
+
+
+
+#Last-icon{
+
+    display: inline-flex;
+    float: right;
+    display: inline-flex;
+    margin-right: 200PX;
+    padding-top:40PX ;
+    padding-bottom: 40PX;
+
+
+}
+
+
+.First-input{
+
+    display: inline-flex;
+    padding-left:200PX ;
+    margin-left: 300PX;
+    margin-top:50PX ;
+    padding-bottom: 20PX;
+    border: black 2PX solid;
+    
+    
+
+}
+
+
+.section{
+    
+    width: 1000PX;
+    height: 1100PX;
+    padding: 40PX;
+    color: black;
+    column-count: initial;
+    font-size: 30PX;
+    box-shadow: grey 25PX  25PX;
+    background-color: rgb(231, 228, 228);
+    padding-left:50PX ;
+    margin-left:250PX ;
+    margin-top: 100PX;
+
+
+    padding-top:30PX ;
+    padding-bottom:30PX ;
+
+
+
+
+}
+
+.right-section{
+    
+    width: 1200PX;
+    height: 100PX;
+    padding: 40PX;
+    color: black;
+    column-count: initial;
+    font-size: 30PX;
+    margin-top: 10PX;
+    margin-left: 35PX;
+    margin-right: 10PX;
+    box-shadow: grey 5PX  5PX;
+    background-color: rgb(231, 228, 228);
+    padding-left:50PX ;
+    padding-top:10PX ;
+    padding-bottom:30PX ;
+
+
+
+
+}
+
+
+.first-button{
+
+    display: inline-flex;
+    padding-left:200PX ;
+    margin-right: 90PX;
+    padding: 20PX 20PX;
+    border-radius: 30PX 40PX;
+    margin-left: 100PX;
+    margin-top: 40PX;
+    margin-bottom: 70PX;
+    border: black 2PX solid;
+    
+
+}
+
+
+.Second-button{
+
+    display: inline-flex;
+    padding-left:200PX ;
+    margin-right: 90PX;
+    padding: 20PX 20PX;
+    border-radius: 30PX 40PX;
+    margin-left: 30PX;
+    margin-top: 40PX;
+    margin-bottom: 70PX;
+    border: black 2PX solid;
+
+
+}
+
+.Second-input{
+
+    display: inline-flex;
+    padding-left:50PX ;
+    float: right;
+    margin-right: 200PX;
+    margin-top: 200PX;
+    margin-right: 200PX;
+    color: wheat;
+    text-align: 30PX;
+
+}
+
+
+#mid-section{
+    
+   width: 100PX;
+    height: 900PX ;
+    color: bisque;
+    padding-top: 90PX;
+    padding-bottom: 40PX;
+    box-shadow: grey 5PX  5PX;
+    font-size: 30PX;
+    margin-top: 80PX;
+    margin-bottom: 70PX;
+    padding-left: 30PX;
+    padding-right: 10PX;
+    background-color: rgb(231, 228, 228);
+    margin-left:50PX ;
+    float: inline-start;
+    float: left;
+
+
+
+}
+
+#link-A{
+   
+   
+    color: black;
+    text-align: center;
+    margin-top: 30PX;
+    padding-left: 30PX;
+    padding-top: 190PX;
+    padding-right: 90PX;
+    background-attachment: fixed;
+   
+
+}
+
+
+
+.link-B{
+   
+
+    padding: 20PX 20PX;
+    border-radius: 30PX 40PX;
+    border: black 2PX solid;
+    
+   
+
+}
+
+
+
+
+
+
+
+.img-B{
+
+
+    width: 70PX ;
+    height: 70PX ;
+    border: black solid 3PX;
+    border-radius: 50%;
+    float: left;
+    display: inline-flex;
+    margin-left: 50PX;
+    margin-top: 30PX;
+    margin-bottom: 50PX;
+    
+
+}
+
+   hr{
+
+    width: 1000PX;
+    height: 3px;   
+    background: black; 
+    margin-top: 40PX;
+    margin-bottom: 50PX;
+
+
+
+   } 
+
+
+
+.Last-title{
+        
+    color: black;
+    text-align: left;
+    font-size: 20PX;
+    margin-top: 50PX;
+    margin-bottom: 50PX;
+    margin-left: 390PX;
+
+}
+
+.First-p{
+
+    color: black;
+    text-align: left;
+    margin-top: 80PX;
+    margin-bottom: 50PX;
+    font-size: 20PX;
+    margin-top: 20PX;
+    margin-left: 250PX;
+
+
+   
+
+
+}
+
+.Button-1{
+
+   display: inline-flex;
+    padding-left:200PX ;
+    padding: 20PX 20PX;
+    border-radius: 30PX 40PX;
+    margin-top: 20PX;
+    margin-bottom: 20PX;
+    border: black 2PX solid;
+    background-color: grey;
+        margin-left: 150PX;
+
+}
+
+
+
+.Button-2{
+
+    
+    display: inline-flex;
+    padding-left:200PX ;
+    padding: 20PX 20PX;
+    border-radius: 30PX 40PX;
+    margin-top: 20PX;
+    margin-bottom: 20PX;
+    border: black 2PX solid;
+    background-color: grey;
+    margin-left: 50PX;
+
+
+    
+
+}
