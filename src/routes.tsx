@@ -6,7 +6,7 @@ import Contenumultimedia from "./components/contenumultimedia";
 import Invitation from "./components/invitation";
 import Message from "./components/message";
 import Notifications from "./components/notifications";
-import Threads from "./components/threads";
+import Publication from "./components/publication";
 import Profil from "./components/profil";
 import Republications from "./components/republications";
 
@@ -28,7 +28,7 @@ function routes() {
       <Route path="/Invitation" element={<Invitation />} />
       <Route path="/Message" element={<Message />} />
       <Route path="/Notifications" element={<Notifications />} />
-      <Route path="/threads" element={<Threads />} />
+      <Route path="/Publication" element={<Publication />} />
       <Route path="/Profil" element={<Profil />} />
 
     </Routes>

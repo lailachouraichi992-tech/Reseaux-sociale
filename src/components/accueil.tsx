@@ -16,14 +16,14 @@ export default function Accueil() {
      <input className="First-input" type="text" placeholder="text" />
 
         </div>
-<div id="mid-section">
+<div id="BOX-2">
  
   
-  <Link id="link-A" to="/accueil"> <i className="ri-home-line"></i> </Link> <br /> <br />
-  <Link id="link-A" to="/communautes"> <i className="ri-group-line"></i> </Link>  <br /> <br />
-  <Link id="link-A" to="/message"> <i className="ri-message-3-line"></i> </Link>  <br /> <br />
-  <Link id="link-A" to="/notifications"><i className="ri-notification-2-line"></i> </Link> <br /> <br />
-  <Link id="link-A" to="/profil"> <i className="ri-user-3-line"></i> </Link>
+  <Link id="link-D" to="/accueil"> <i className="ri-home-line"></i> </Link> <br /> <br />
+  <Link id="link-D" to="/communautes"> <i className="ri-group-line"></i> </Link>  <br /> <br />
+  <Link id="link-D" to="/message"> <i className="ri-message-3-line"></i> </Link>  <br /> <br />
+  <Link id="link-D" to="/notifications"><i className="ri-notification-2-line"></i> </Link> <br /> <br />
+  <Link id="link-D" to="/profil"> <i className="ri-user-3-line"></i> </Link>
 
 </div>
 

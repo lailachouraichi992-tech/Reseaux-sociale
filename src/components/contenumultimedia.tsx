@@ -28,7 +28,7 @@ export default function Contenumultimedia() {
 
 </div>
 
-<div id="section">
+<div id="BOX">
   
   <div>
       <img className="img-A"

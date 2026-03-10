@@ -1,15 +1,8 @@
-
 body{
 
     background-color: rgb(56, 54, 54);
 }
 
-
-body{
-
-    background-color: rgb(56, 54, 54);
-    border: solid white 5PX;
-}
 
 #First-icon{
 
@@ -126,10 +119,10 @@ body{
 }
 
 
-#section{
+#BOX{
 
     width: 1000PX;
-    height: 1200PX ;
+    height: 1400PX ;
     background-color: rgb(231, 228, 228);
     margin-left: 300PX;
     margin-right: 60PX;

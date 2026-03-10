@@ -78,7 +78,7 @@ body{
 }
 
 
-.mid-section{
+#BOX-2{
   
     width: 100PX;
     height:9989PX ;
@@ -91,7 +91,7 @@ body{
     margin-bottom: 70PX;
     padding-left: 30PX;
     padding-right: 10PX;
-    background-color: rgb(63, 21, 21);
+    background-color: rgb(231, 228, 228);
     margin-left:50PX ;
     float: inline-start;
     float: left;
@@ -102,7 +102,7 @@ body{
 
 
 
-#link-A{
+#link-D{
    
     color: black;
     text-align: center;

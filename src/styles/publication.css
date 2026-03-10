@@ -1,15 +1,8 @@
-
-
 body{
 
     background-color: rgb(56, 54, 54);
 }
 
-body{
-
-    background-color: rgb(56, 54, 54);
-    border: solid white 5PX;
-}
 #First-icon{
 
     display: inline-flex;
@@ -86,11 +79,11 @@ body{
 }
 
 
-#mid-section{
+.BOX-2{
     
     width: 100PX;
-    height: 3700PX ;
-    color: bisque;
+    height: 4500PX ;
+    color: rgb(133, 95, 47);
     padding-top: 490PX;
     padding-bottom: 40PX;
     box-shadow: grey 5PX  5PX;
@@ -129,21 +122,21 @@ body{
 .img-A{
 
 
-    width: 70PX ;
-    height: 70PX ;
+    width: 90PX ;
+    height: 90PX ;
     border: black solid 3PX;
     border-radius: 50%;
-    float: right;
+    float: left;
     display: inline-flex;
-    margin-right: 80PX;
+    margin-right: 100PX;
     margin-top: 40PX;
 
 }
 
-#section{
+#Box{
 
     width: 1000PX;
-    height: 4200PX ;
+    height: 5000PX;
     background-color: rgb(231, 228, 228);
     margin-left: 300PX;
     margin-right: 60PX;
@@ -241,14 +234,14 @@ p{
 .img-P{
 
  
-    width:  200PX;
-    height: 500PX;
+    width:  400PX;
+    height: 300PX;
     border: solid 5PX rgb(231, 203, 203) ;
     border-radius: 40PX 50PX ;
     display: inline-flex;
     margin-top: 30PX;
     margin-bottom: 50PX;
-    margin-left: 350PX;
+    margin-left: 250PX;
 
    
    
@@ -600,38 +593,6 @@ button{
 
 }
 
-
-
-
-.Second-title{
-        
-    color: black;
-    text-align:left;
-    font-size: 20PX;
-    margin-left: 10PX;
-    margin-top: 200PX;
-    margin-bottom: 90PX;
-    display: inline-flex;
-
-
-    
-}
-
-.Second-p{
-
-    color: black;
-    font-size: 20PX;
-    float: right;
-    margin-top: 90PX;
-    display: inline-flex;
-    margin-right: 30PX;
-
-
-
-   
-
-
-}
 
 
 .Title{

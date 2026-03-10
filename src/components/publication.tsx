@@ -1,7 +1,12 @@
-import "../styles/threads.css";
+import "../styles/Publication.css";
 import { Link } from "react-router";
 
-export default function Threads() {
+
+
+
+
+
+export default function Publication() {
   return (
 
     <>
@@ -15,7 +20,7 @@ export default function Threads() {
         </div>
 
 
-<div id="mid-section">
+<div className="BOX-2">
  
 
   <Link className="link-A" to="/Accueil"> <i className="ri-home-line"></i> </Link> <br /> <br />
@@ -27,7 +32,7 @@ export default function Threads() {
 
 </div>
 
-<div id="section">
+<div id="Box">
   
   <div>
       <img className="img-A"
@@ -90,7 +95,58 @@ export default function Threads() {
 
            <img className="img-W"  
 
-          src="/img/soutenance master/WhatsApp Image 2026-03-08 at 01.32.47 (2).jpeg"
+          src="/img/soutenance master/WhatsApp Image 2025-01-03 at 20.43.45.jpeg"
+        />
+        
+      </div>
+
+
+
+          
+   <div className="icone">
+        <i id="i-6" className="ri-heart-line"></i>
+        <i id="i-7" className="ri-chat-ai-line"></i>
+        <i id="i-8" className="ri-exchange-funds-line"></i>
+        <i id="i-9" className="ri-send-ins-line"> </i>
+      </div>
+
+
+
+
+
+<div>
+      <img className="img-A"
+        src="/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif"
+        alt="bright image1"
+        />
+    </div>
+    
+    <div>
+      
+       <h3 className="first-title"> <b>CHOURAICHI LAILA</b></h3>
+      
+    </div>
+
+ 
+      <div className="continer-L">  
+
+        <p>j'ai le plaisir de partager avec vous Ma journée de Remise du diplôme au 
+          Master Management des Administrations à la faculté des Sciences Économiques 
+          et Sociales d'Aïn Sebaâ à Casablanca.
+            le : 02 / 04 / 2024. 
+</p>
+
+       
+          <img className="img-V"  
+
+          src="/img/soutenance master/WhatsApp Image 2024-06-02 at 15.17.41.jpeg"
+          alt="bright image1"
+        />
+        
+
+           <img className="img-W"  
+
+          src="/img/soutenance master/WhatsApp Image 2026-03-08 at 01.32.47.jpeg"
         />
         
       </div>
@@ -169,8 +225,6 @@ export default function Threads() {
     <div>
       
        <h3 className="first-title"> <b>CHOURAICHI LAILA</b></h3>
-        <p className="Second-title"> <b>Compléter votre profil</b></p>
-        <p className="Second-p"> 1 restant</p>
 
 
         </div>
@@ -199,7 +253,7 @@ export default function Threads() {
       
       <img className="img-J"
 
-          src="/img/photos/504327728_18069146063483351_2359058276795695264_n.webp"
+          src="/img/amie/onok-ukraine-14-juillet-2021-homme-affaires-tient-clique-icone-facebook-dans-ses-mains-reseau-social-reseau-mondial-connexion-client-donnees-reseau-international_150455-13919.jpg"
           alt="bright image1"
         />
        <h3 className="Title-1"> CHOURAICHI laila</h3> 
@@ -213,7 +267,7 @@ export default function Threads() {
     <div className="section-3">
          <img className="img-J"
 
-          src="/img/photos/504327728_18069146063483351_2359058276795695264_n.webp"
+          src="/img/amie/onok-ukraine-14-juillet-2021-homme-affaires-tient-clique-icone-facebook-dans-ses-mains-reseau-social-reseau-mondial-connexion-client-donnees-reseau-international_150455-13919.jpg"
           alt="bright image1"
         />
        <h3 className="Title-2"> Informatique </h3>
@@ -227,7 +281,7 @@ export default function Threads() {
     <div className="section-4">
          <img className="img-J"
 
-          src="/img/photos/504327728_18069146063483351_2359058276795695264_n.webp"
+          src="/img/amie/onok-ukraine-14-juillet-2021-homme-affaires-tient-clique-icone-facebook-dans-ses-mains-reseau-social-reseau-mondial-connexion-client-donnees-reseau-international_150455-13919.jpg"
           alt="bright image1"
         />
 
