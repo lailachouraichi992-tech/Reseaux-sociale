@@ -1,8 +1,9 @@
 
 body{
 
-    background-color: rgb(56, 54, 54);
+    background-color: rgb(50, 20, 20);
 }
+
 #First-icon{
 
     display: inline-flex;
@@ -68,10 +69,10 @@ body{
 }
 
 
-.mid-section{
+.BOX-1{
     
     width: 100PX;
-    height: 1780PX ;
+    height: 1810PX ;
     color: bisque;
     padding-top: 490PX;
     padding-bottom: 40PX;
@@ -130,9 +131,10 @@ body{
 
 
 
-#section{
+#BOX{
 
-  
+    width: 1000PX;
+    height: 2400PX;
     background-color: rgb(231, 228, 228);
     margin-left: 300PX;
     margin-right: 60PX;

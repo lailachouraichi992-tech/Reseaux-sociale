@@ -50,7 +50,7 @@ export default function Profil() {
           <button> <Link className="link-A" to="/Profil"> Profil </Link>   </button> 
        
    
-  <Link className="Link-B" to="/threads"> Threads</Link> 
+  <Link className="Link-B" to="/Publication"> Publication</Link> 
         
   <Link className="Link-D" to="/contenumultimédia"> Contenu multimédia </Link>  
 

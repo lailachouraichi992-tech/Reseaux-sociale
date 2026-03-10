@@ -55,7 +55,7 @@ export default function Publication() {
        <div className="Links"></div>
 
         
-  <Link className="Link-B" to="/threads"> Threads</Link> 
+  <Link className="Link-B" to="/Publication"> Publication</Link> 
         
   <Link className="Link-D" to="/contenumultimédia"> Contenu multimédia </Link>  
 

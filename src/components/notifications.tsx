@@ -22,7 +22,7 @@ export default function Notifications() {
         </div>
 
 
-<div className="mid-section">
+<div className="BOX-1">
 
   <Link className="link-A" to="/accueil"> <i className="ri-home-line"></i> </Link> <br /> <br />
   <Link className="link-A" to="/communautes"> <i className="ri-group-line"></i> </Link>  <br /> <br />
@@ -32,7 +32,7 @@ export default function Notifications() {
 
 </div>
 
-<div id="section">
+<div id="BOX">
   
 
       <img className="img-B"

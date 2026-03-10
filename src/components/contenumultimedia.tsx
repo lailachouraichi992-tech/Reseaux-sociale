@@ -28,7 +28,7 @@ export default function Contenumultimedia() {
 
 </div>
 
-<div id="BOX">
+<div className="BOX">
   
   <div>
       <img className="img-A"
@@ -51,7 +51,7 @@ export default function Contenumultimedia() {
        <div className="Links"></div>
 
        
-  <Link className="Link-B" to="/threads"> Threads</Link> 
+  <Link className="Link-B" to="/Publication"> Publication</Link> 
         
   <Link className="Link-D" to="/contenumultimédia"> Contenu multimédia </Link>  
 

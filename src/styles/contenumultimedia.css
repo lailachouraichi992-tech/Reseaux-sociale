@@ -119,10 +119,10 @@ body{
 }
 
 
-#BOX{
+.BOX{
 
     width: 1000PX;
-    height: 1400PX ;
+    height: 1500PX ;
     background-color: rgb(231, 228, 228);
     margin-left: 300PX;
     margin-right: 60PX;
