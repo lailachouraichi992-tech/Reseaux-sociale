@@ -1,4 +1,4 @@
-import "../styles/Publication.css";
+import "../styles/publication.css";
 import { Link } from "react-router";
 
 
