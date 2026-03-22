@@ -30,11 +30,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link
-          href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-          rel="stylesheet"
-        />
-
+<link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
         <Meta />
         <Links />
       </head>

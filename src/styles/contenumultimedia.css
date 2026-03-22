@@ -69,10 +69,10 @@ body{
 }
 
 
-#mid-section{
+.BOX-2{
     
-    width: 100PX;
-    height: 1220PX ;
+    width: 180PX;
+    height: 920PX ;
     color: bisque;
     padding-top: 490PX;
     padding-bottom: 40PX;
@@ -124,7 +124,7 @@ body{
     width: 1000PX;
     height: 1500PX ;
     background-color: rgb(231, 228, 228);
-    margin-left: 300PX;
+    margin-left: 350PX;
     margin-right: 60PX;
     margin-top: 90PX;
     margin-bottom: 100PX;

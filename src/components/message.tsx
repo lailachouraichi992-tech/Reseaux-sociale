@@ -18,12 +18,12 @@ export default function Message() {
 
         </div>
 <div id="mid-section">
- 
-  <Link className="link-A" to="/accueil"> <i className="ri-home-line"></i> </Link> <br /> <br />
-  <Link className="link-A" to="/communautes"> <i className="ri-group-line"></i> </Link>  <br /> <br />
-  <Link className="link-A" to="/message"> <i className="ri-message-3-line"></i> </Link>  <br /> <br />
-  <Link className="link-A" to="/notifications"><i className="ri-notification-2-line"></i> </Link> <br /> <br />
-  <Link className="link-A" to="/profil"> <i className="ri-user-3-line"></i> </Link>
+   
+  <Link id="link-D" to="/accueil">  accueil</Link> <br /> <br />
+  <Link id="link-D" to="/communautes">  communautes</Link>  <br /> <br />
+  <Link id="link-D" to="/message">  message</Link>  <br /> <br />
+  <Link id="link-D" to="/notifications">  notifications</Link> <br /> <br />
+  <Link id="link-D" to="/profil">  profil</Link>
 
 </div>
 

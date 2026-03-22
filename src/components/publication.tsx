@@ -18,17 +18,14 @@ export default function Publication() {
      <input className="First-input" type="text" placeholder="text" />
 
         </div>
-
-
-<div className="BOX-2">
+<div id ="BOX-2">
  
-
-  <Link className="link-A" to="/Accueil"> <i className="ri-home-line"></i> </Link> <br /> <br />
-  <Link className="link-A" to="/Communautés"> <i className="ri-group-line"></i> </Link>  <br /> <br />
-  <Link className="link-A" to="/Enregistrement"> <i className="ri-bookmark-line"></i> </Link>  <br />   <br />
-  <Link className="link-A" to="/Message"> <i className="ri-chat-4-line"></i> </Link>  <br /> <br />
-  <Link className="link-A" to="/Notifications"><i className="ri-notification-line"></i> </Link> <br /> <br />
-  <Link className="link-A" to="/Profil"> <i className="ri-user-3-line"></i> </Link>
+   
+  <Link id="link-D" to="/accueil">  accueil</Link> <br /> <br />
+  <Link id="link-D" to="/communautes">  communautes</Link>  <br /> <br />
+  <Link id="link-D" to="/message">  message</Link>  <br /> <br />
+  <Link id="link-D" to="/notifications">  notifications</Link> <br /> <br />
+  <Link id="link-D" to="/profil">  profil</Link>
 
 </div>
 
@@ -44,7 +41,6 @@ export default function Publication() {
     <div className="IDENTIFICATION">
       
        <h3 className="first-title"> <b>CHOURAICHI LAILA</b></h3>
-        <p className="Last-p"> laila Chouraichi </p>
 
         </div>
                   <div>

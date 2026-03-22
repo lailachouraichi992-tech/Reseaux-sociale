@@ -21,15 +21,15 @@ function routes() {
     <Routes>
       <Route path="/" element={<Accueil />} />
 
-      <Route path="/Accueil" element={<Accueil />} />
-      <Route path="/Communautes" element={<Communautes />} />
-      <Route path="/Contenumultimédia" element={<Contenumultimedia />} />
-      <Route path="/Republications" element={<Republications />} />
-      <Route path="/Invitation" element={<Invitation />} />
-      <Route path="/Message" element={<Message />} />
-      <Route path="/Notifications" element={<Notifications />} />
-      <Route path="/Publication" element={<Publication />} />
-      <Route path="/Profil" element={<Profil />} />
+      <Route path="/accueil" element={<Accueil />} />
+      <Route path="/communautes" element={<Communautes />} />
+      <Route path="/contenumultimédia" element={<Contenumultimedia />} />
+      <Route path="/republications" element={<Republications />} />
+      <Route path="/invitation" element={<Invitation />} />
+      <Route path="/message" element={<Message />} />
+      <Route path="/notifications" element={<Notifications />} />
+      <Route path="/publication" element={<Publication />} />
+      <Route path="/profil" element={<Profil />} />
 
     </Routes>
   );

@@ -1,29 +1,29 @@
 import "../styles/accueil.css";
-import { Link } from "react-router";
-
+import { Link } from "react-router-dom";
 export default function Accueil() {
   return (
 
     <>
 
 <body>
-  
+
 
 <div className="right-section">
-    <i id="First-icon"  className="ri-threads-fill"></i> 
-    
-    <i id="Last-icon" className="ri-notification-line"></i>
+
+  <i id="first-icon" className="ri-threads-fill"></i>
+
+<i id="last-icon" className="ri-notification-line"></i>
      <input className="First-input" type="text" placeholder="text" />
 
         </div>
 <div id="BOX-2">
  
-  
-  <Link id="link-D" to="/accueil"> <i className="ri-home-line"></i> </Link> <br /> <br />
-  <Link id="link-D" to="/communautes"> <i className="ri-group-line"></i> </Link>  <br /> <br />
-  <Link id="link-D" to="/message"> <i className="ri-message-3-line"></i> </Link>  <br /> <br />
-  <Link id="link-D" to="/notifications"><i className="ri-notification-2-line"></i> </Link> <br /> <br />
-  <Link id="link-D" to="/profil"> <i className="ri-user-3-line"></i> </Link>
+   
+  <Link id="link-D" to="/accueil">  accueil</Link> <br /> <br />
+  <Link id="link-D" to="/communautes">  communautes</Link>  <br /> <br />
+  <Link id="link-D" to="/message">  message</Link>  <br /> <br />
+  <Link id="link-D" to="/notifications">  notifications</Link> <br /> <br />
+  <Link id="link-D" to="/profil">  profil</Link>
 
 </div>
 

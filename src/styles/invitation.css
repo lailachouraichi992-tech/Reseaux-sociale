@@ -46,7 +46,7 @@ body{
 }
 
 
-.section{
+.Box-2{
     
     width: 1000PX;
     height: 1100PX;
@@ -57,7 +57,7 @@ body{
     box-shadow: grey 25PX  25PX;
     background-color: rgb(231, 228, 228);
     padding-left:50PX ;
-    margin-left:250PX ;
+    margin-left:280PX ;
     margin-top: 100PX;
 
 
@@ -137,21 +137,20 @@ body{
 }
 
 
-#mid-section{
+.Box{
     
-   width: 100PX;
+   width: 180PX;
     height: 900PX ;
-    color: bisque;
-    padding-top: 90PX;
+    padding-top: 300PX;
     padding-bottom: 40PX;
-    box-shadow: grey 5PX  5PX;
+    box-shadow: #808080 5PX  5PX;
     font-size: 30PX;
     margin-top: 80PX;
     margin-bottom: 70PX;
     padding-left: 30PX;
     padding-right: 10PX;
     background-color: rgb(231, 228, 228);
-    margin-left:50PX ;
+    margin-left:30PX ;
     float: inline-start;
     float: left;
 

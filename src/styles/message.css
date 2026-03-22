@@ -141,7 +141,7 @@ body{
 
 #mid-section{
     
-    width: 100PX;
+    width: 700PX;
     height: 400PX ;
     color: bisque;
     padding-top: 90PX;
@@ -165,10 +165,10 @@ body{
    
     color: black;
     text-align: center;
-    margin-top: 30PX;
-    padding-left: 30PX;
-    padding-top: 190PX;
-    padding-right: 90PX;
+    margin-top: 90PX;
+    padding-top: 200PX;
+    padding-left: 5PX;
+    padding-right: 30PX;
     background-attachment: fixed;
    
 }

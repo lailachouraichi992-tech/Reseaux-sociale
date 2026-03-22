@@ -76,7 +76,7 @@ body{
 
 #mid-section{
   
-    width: 100PX;
+    width: 180PX;
     height: 890PX ;
     color: bisque;
     padding-top: 400PX;
@@ -94,13 +94,13 @@ body{
 
 }
 
-.link-A{
+#link-D{
 
     color: black;
     text-align: center;
     margin-top: 90PX;
     padding-top: 200PX;
-    padding-left: 30PX;
+    padding-left: 5PX;
     padding-right: 30PX;
     background-attachment: fixed;
 
@@ -131,7 +131,7 @@ body{
     width: 1000PX;
     height: 1280PX ;
     background-color: rgb(231, 228, 228);
-    margin-left: 300PX;
+    margin-left: 350PX;
     margin-right: 60PX;
     padding-bottom: 50PX;
     margin-top: 90PX;
@@ -221,7 +221,7 @@ button{
 }
 
 
-.Link-D{
+.Link-Y{
 
     background-color: gainsboro;
     padding: 20PX 20PX;

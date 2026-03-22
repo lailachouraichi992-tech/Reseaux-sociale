@@ -17,13 +17,13 @@ export default function invitation() {
      <input className="First-input" type="text" placeholder="text" />
 
         </div>
-<div id="mid-section">
- 
-  <Link id="link-A" to="/accueil"> <i className="ri-home-line"></i> </Link> <br /> <br />
-  <Link id="link-A" to="/communautes"> <i className="ri-group-line"></i> </Link>  <br /> <br />
-  <Link id="link-A" to="/message"> <i className="ri-chat-4-line"></i> </Link>  <br /> <br />
-  <Link id="link-A" to="/notifications"><i className="ri-notification-line"></i> </Link> <br /> <br />
-  <Link id="link-A" to="/profil"> <i className="ri-user-3-line"></i> </Link>
+<div className="Box">
+  
+  <Link id="link-D" to="/accueil">  accueil</Link> <br /> <br />
+  <Link id="link-D" to="/communautes">  communautes</Link>  <br /> <br />
+  <Link id="link-D" to="/message">  message</Link>  <br /> <br />
+  <Link id="link-D" to="/notifications">  notifications</Link> <br /> <br />
+  <Link id="link-D" to="/profil">  profil</Link>
 
 </div>
 
@@ -34,7 +34,7 @@ export default function invitation() {
 
 
       
-  <div className="section">
+  <div className="Box-2">
       <img className="img-B"
         src="/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif"
         alt="bright image1"

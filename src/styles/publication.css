@@ -79,11 +79,11 @@ body{
 }
 
 
-.BOX-2{
+#BOX-2{
     
-    width: 100PX;
+    width: 180PX;
     height: 4500PX ;
-    color: rgb(133, 95, 47);
+    color: rgba(200, 129, 42, 0.724);
     padding-top: 490PX;
     padding-bottom: 40PX;
     box-shadow: grey 5PX  5PX;
@@ -162,17 +162,6 @@ body{
     
 }
 
-.Last-p{
-     color: black;
-    font-size: 20PX;
-    float: left;
-    margin-right: 240PX;
-    margin-top: 170PX;
-
-   
-
-
-}
 
 
 

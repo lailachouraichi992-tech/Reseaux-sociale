@@ -68,9 +68,9 @@ body{
     text-align: 30PX;
 }
 
-#mid-section{
+.mid-section{
     
-    width: 100PX;
+    width: 180PX;
     height: 100PX;
     color: bisque;
     padding-top: 100PX;
@@ -90,14 +90,15 @@ body{
 
 }
 
-.link-A{
+.link-D{
 
     color: black;
     text-align: center;
-    padding-left: 30PX;
+    margin-top: 90PX;
+    padding-top: 200PX;
+    padding-left: 5PX;
     padding-right: 30PX;
-    padding-top: 190PX;
-    padding-bottom:100PX;
+    background-attachment: fixed;
     
 }
 
