@@ -10,24 +10,24 @@ export default function Accueil() {
 
 <div className="right-section">
 
-  <i id="first-icon" className="ri-threads-fill"></i>
+  <i id="icon-1" className="ri-threads-fill"></i>
 
-<i id="last-icon" className="ri-notification-line"></i>
+<i id="icon-2" className="ri-notification-line"></i>
      <input className="First-input" type="text" placeholder="text" />
 
         </div>
 <div id="BOX-2">
  
    
-  <Link id="link-D" to="/accueil">  accueil</Link> <br /> <br />
-  <Link id="link-D" to="/communautes">  communautes</Link>  <br /> <br />
-  <Link id="link-D" to="/message">  message</Link>  <br /> <br />
-  <Link id="link-D" to="/notifications">  notifications</Link> <br /> <br />
-  <Link id="link-D" to="/profil">  profil</Link>
+  <Link className="link-D" to="/accueil"> <i className="ri-home-line">accueil</i> </Link> <br /> <br />
+  <Link className="link-D" to="/communautes"> <i className="ri-group-line">communautes</i> </Link>  <br /> <br />
+  <Link className="link-D" to="/message">  <i className="ri-chat-search-line">message</i> </Link>  <br /> <br />
+  <Link className="link-D" to="/notifications"> <i className="ri-home-line">notifications</i> </Link> <br /> <br />
+  <Link className="link-D" to="/profil">  <i className="ri-user-line">profil</i> </Link>
 
 </div>
 
-<div className="section">
+<div id="section">
       
     <div>
       <img className="img-A"
@@ -54,13 +54,13 @@ export default function Accueil() {
       </div>
 
 
-          
-   <div className="icone">
-        <i id="i-6" className="ri-heart-line"></i>
-        <i id="i-7" className="ri-chat-ai-line"></i>
-        <i id="i-8" className="ri-exchange-funds-line"></i>
-        <i id="i-9" className="ri-send-ins-line"> </i>
-      </div>
+    <div className="icone">
+  
+  <i id="i-6" className="ri-heart-line"></i>
+  <i id="i-7" className="ri-chat-ai-line"></i>
+  <i id="i-8" className="ri-exchange-funds-line"></i>
+  <i id="i-9" className="ri-send-plane-line"></i>
+</div>
 
   </div>
 

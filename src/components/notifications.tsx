@@ -24,12 +24,13 @@ export default function Notifications() {
 
 <div className="BOX-1">
 
-    
-  <Link id="link-D" to="/accueil">  accueil</Link> <br /> <br />
-  <Link id="link-D" to="/communautes">  communautes</Link>  <br /> <br />
-  <Link id="link-D" to="/message">  message</Link>  <br /> <br />
-  <Link id="link-D" to="/notifications">  notifications</Link> <br /> <br />
-  <Link id="link-D" to="/profil">  profil</Link>
+  
+  <Link className="link-D" to="/accueil"> <i className="ri-home-line">accueil</i> </Link> <br /> <br />
+  <Link className="link-D" to="/communautes"> <i className="ri-group-line">communautes</i> </Link>  <br /> <br />
+  <Link className="link-D" to="/message">  <i className="ri-chat-search-line">message</i> </Link>  <br /> <br />
+  <Link className="link-D" to="/notifications"> <i className="ri-home-line">notifications</i> </Link> <br /> <br />
+  <Link className="link-D" to="/profil">  <i className="ri-user-line">profil</i> </Link>
+
 
 </div>
 
@@ -61,7 +62,7 @@ export default function Notifications() {
         alt="bright image1"
         />
       
-       <h1 className="Last-title"> CHOURAICHI LAILA</h1>
+       <h1 className="Last-title"> CHOURAICHI LAILA </h1>
         <p className="First-p">  Suiver Linkedin </p>
         <p id="Second-p"> Sur :  <Link to="https://www.linkedin.com/in/laila-chouraichi-0962b72a7/"> https://www.linkedin.com/in/laila-chouraichi-0962b72a7/ </Link> </p>
 

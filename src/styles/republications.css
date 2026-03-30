@@ -19,7 +19,7 @@ body{
 .right-section{
        
     
-    width: 1200PX;
+    width: 1227PX;
     height: 60PX;
     padding: 40PX;
     color: black;
@@ -28,7 +28,6 @@ body{
     margin-top: 50PX;
     margin-left: 30PX;
     margin-right: 30PX;
-
     box-shadow: grey 5PX  5PX;
     background-color: rgb(231, 228, 228);
     padding-top:30PX ;
@@ -81,8 +80,8 @@ body{
 
 .mid-section{
   
-    width: 100PX;
-    height:9989PX ;
+    width: 180PX;
+    height:10849PX ;
     color: bisque;
     padding-top: 200PX;
     padding-bottom: 100PX;
@@ -104,14 +103,13 @@ body{
 
 
 
-.link-A{
+.link-D{
    
     color: black;
     text-align: center;
-    margin-top: 30PX;
-    padding-left: 30PX;
+    padding-top: 500PX;
+    padding-left: 10PX;
     padding-right: 30PX;
-    background-attachment: fixed;
    
 
 }
@@ -141,7 +139,7 @@ body{
     width: 900PX;
     height: 1100PX ;
     background-color: rgb(231, 228, 228);
-    margin-left: 380PX;
+    margin-left: 350PX;
     margin-right: 60PX;
     margin-top: 90PX;
     margin-bottom: 90PX;

@@ -100,10 +100,9 @@ export default function Publication() {
 
           
    <div className="icone">
-        <i id="i-6" className="ri-heart-line"></i>
-        <i id="i-7" className="ri-chat-ai-line"></i>
-        <i id="i-8" className="ri-exchange-funds-line"></i>
-        <i id="i-9" className="ri-send-ins-line"> </i>
+        <i id="i-6" className="ri-thumb-up-line"></i>
+        <i id="i-7" className="ri-chat-3-line"></i>
+        <i id="i-8" className="ri-reply-line"></i>
       </div>
 
 

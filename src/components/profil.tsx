@@ -21,12 +21,12 @@ export default function Profil() {
 
 
 <div id="mid-section">
-   
-  <Link id="link-D" to="/accueil">  accueil</Link> <br /> <br />
-  <Link id="link-D" to="/communautes">  communautes</Link>  <br /> <br />
-  <Link id="link-D" to="/message">  message</Link>  <br /> <br />
-  <Link id="link-D" to="/notifications">  notifications</Link> <br /> <br />
-  <Link id="link-D" to="/profil">  profil</Link>
+ 
+  <Link id="link-D" to="/accueil"> <i className="ri-home-line">accueil</i> </Link> <br /> <br />
+  <Link id="link-D" to="/communautes"> <i className="ri-group-line">communautes</i> </Link>  <br /> <br />
+  <Link id="link-D" to="/message">  <i className="ri-chat-search-line">message</i> </Link>  <br /> <br />
+  <Link id="link-D" to="/notifications"> <i className="ri-home-line">notifications</i> </Link> <br /> <br />
+  <Link id="link-D" to="/profil">  <i className="ri-user-line">profil</i> </Link>
 
 </div>
 <div id="section">

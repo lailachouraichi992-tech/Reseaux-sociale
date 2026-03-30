@@ -3,16 +3,6 @@ body{
 
     background-color: rgb(56, 54, 54);
 }
-#First-icon{
-
-    display: inline-flex;
-    float: left;
-    float: inline-start;
-    margin-left: 40PX  ;
-    margin-top: 10PX;
-
-
-}
 
 
 
@@ -37,14 +27,30 @@ body{
 
 }
 
-#Last-icon{
+
+
+#icon-1{
+
+    display: inline-flex;
+    float: left;
+    float: inline-start;
+    margin-left: 40PX  ;
+    margin-top: 10PX;
+    color: rgb(56, 54, 54);
+
+
+}
+
+#icon-2{
 
     display: inline-flex;
     float: right;
-    display: inline-flex;
+    float: inline-end;
     margin-right: 60PX;
     padding-bottom:30PX ;
-        margin-top: 10PX;
+    margin-top: 10PX;
+    color: rgb(56, 54, 54);
+
 
 
 
@@ -102,9 +108,9 @@ body{
 
 
 
-#link-D{
+.link-D{
    
-    color: black;
+    color: rgb(56, 54, 54);
     text-align: center;
     margin-top: 30PX;
     padding-left: 30PX;
@@ -149,16 +155,17 @@ body{
 }
 
 
-.section{
+#section{
 
     width: 900PX;
-    height: 1100PX ;
-    background-color: rgb(231, 228, 228);
+    height: 1300PX ;
     margin-left: 380PX;
     margin-right: 60PX;
     margin-top: 90PX;
     margin-bottom: 90PX;
     box-shadow: grey 5PX 5PX 5PX 5PX;
+    background-color: rgb(231, 228, 228);
+
 
        
 

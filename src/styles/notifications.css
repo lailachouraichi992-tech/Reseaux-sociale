@@ -91,16 +91,19 @@ body{
 
 }
 
-.link-A{
-    
+.link-D{
+
     color: black;
     text-align: center;
-    margin-top: 30PX;
-    padding-left: 30PX;
+    margin-top: 90PX;
+    padding-top: 200PX;
+    padding-left: 5PX;
     padding-right: 30PX;
     background-attachment: fixed;
-
+    
 }
+
+
 
 
 .img-B{
@@ -136,7 +139,7 @@ body{
     width: 1000PX;
     height: 2400PX;
     background-color: rgb(231, 228, 228);
-    margin-left: 300PX;
+    margin-left: 350PX;
     margin-right: 60PX;
     margin-top: 90PX;
     box-shadow: grey 5PX 5PX 5PX 5PX;
@@ -148,9 +151,9 @@ body{
 .Last-title{
         
     color: black;
-    text-align: left;
+    text-align: right;
     font-size: 20PX;
-    padding-top: 50PX;
+    margin-top: 0PX;
     margin-left: 300PX;
 
 }
