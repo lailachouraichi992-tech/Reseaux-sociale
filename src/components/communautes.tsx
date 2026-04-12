@@ -1,7 +1,36 @@
 import "../styles/communautes.css";
 import { Link } from "react-router";
+import { useState } from "react";
+
 
 export default function Communautes() {
+ // 📌 Données des posts
+  const [posts, setPosts] = useState([
+    { id: 1, video: "/video/video1.mp4", likes: 0 },
+    { id: 2, video: "/video/video6.mp4", likes: 0 },
+   
+  ]);
+
+  // 💬 Ajouter une communautes
+  const AjouterCommunautes = (id) => {
+    const updatedPosts = posts.map((post) =>
+      post.id === id ? { ...post, AjouterCommunautes: post.AjouterCommunautes + 1 } : post
+    );
+    setPosts(updatedPosts);
+  };
+
+
+  // 💬 Ajouter une communautes
+  const ajouterCommunautes = () => {
+    alert("AjouterCommunautes");
+  };
+
+  // 💬 Supprimer une communautes
+  const supprimerCommunautes = () => {
+    alert("SupprimerCommunautes");
+  };
+
+
   return (
 
     <>
@@ -14,15 +43,14 @@ export default function Communautes() {
      <input className="First-input" type="text" placeholder="text" />
 
         </div>
-<div id="mid-section">
+<div className="section-J">
  
-    
-<Link id="link-D" to="/accueil"> <i className="ri-home-line">accueil</i> </Link> <br /> <br />
-  <Link id="link-D" to="/communautes"> <i className="ri-group-line">communautes</i> </Link>  <br /> <br />
-  <Link id="link-D" to="/message">  <i className="ri-chat-search-line">message</i> </Link>  <br /> <br />
-  <Link id="link-D" to="/notifications"> <i className="ri-home-line">notifications</i> </Link> <br /> <br />
-  <Link id="link-D" to="/profil">  <i className="ri-user-line">profil</i> </Link>
-
+    <Link to="/accueil"> <i className="ri-home-line"></i> </Link> <br />
+        <Link to="/communautes"> <i className="ri-group-line"></i> </Link> <br />
+        <Link to="/message"> <i className="ri-chat-2-line"></i> </Link> <br />
+        <Link to="/notifications">  <i className="ri-notification-line"></i> </Link> <br />
+        <Link to="/profil"> <i className="ri-user-line"></i> </Link> <br />
+     
 
 </div>
 
@@ -30,7 +58,7 @@ export default function Communautes() {
 
  
 
-<div id="section">
+<div className="Section-K">
 
       
   <div>
@@ -59,7 +87,7 @@ export default function Communautes() {
 
         </div>
 
-    <div id="section-2">
+    <div className="section-2">
       
       
       <img className="img-J"
@@ -69,9 +97,9 @@ export default function Communautes() {
         />
        <h3 className="Title-1"> CHOURAICHI laila</h3> 
         <p className="Phrase-2"> Informatique / Natation / Voyage</p>
-         <button className="last-button"> Ajouter </button>
-
-
+          <button id="ajouterCommunautes" 
+              onClick={ajouterCommunautes} 
+            ></button>
         </div>
 
  
@@ -83,8 +111,10 @@ export default function Communautes() {
         />
        <h3 className="Title-2"> Informatique </h3>
         <p className="Phrase-2"> Soutenance et presentation du projet Finale "Threads"  </p>
-        <button className="last-button"> Términer </button>
 
+           <button className="supprimerCommunautes"
+              onClick={supprimerCommunautes}
+            ></button>
 
 
         </div>
@@ -102,8 +132,9 @@ export default function Communautes() {
                Création des Applicaion Web <br /> 
                Capacité à travailler des projets </p>
 
-        <button className="last-button"> Términer </button>
-
+     <button id="supprimerCommunautes"
+              onClick={supprimerCommunautes}
+            ></button>
 
         </div>
 
