@@ -1,7 +1,49 @@
 import "../styles/profil.css";
 import { Link } from "react-router";
+import { useState } from "react";
+
+
 
 export default function Profil() {
+
+
+  // 📌 Données des posts
+  const [Images, setPosts] = useState([
+    { id: 1, Image: "/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif", likes: 0 },
+    { id: 2, Image: "/img/photos/photos/adorable-chaton-dans-pull-motif-coeur-roses-roses-bougies_1298956-2102.avif", likes: 0 },
+    { id: 3, Image: "/img/photos/photos/adorable-chaton-dans-pull-motif-coeur-roses-roses-bougies_1298956-2102.avif", likes: 0 },
+  ]);
+
+  // ❤️ LIKE
+  const LikeImage = (id) => {
+    const updatedImages = Images.map((post) =>
+      post.id === id ? { ...post, likes: post.likes + 1 } : post
+    );
+    setPosts(updatedImages);
+  };
+
+
+  // 💬 COMMENTAIRE
+  const CommenterImage = () => {
+    alert("Commenter Image");
+  };
+
+  // 🔁 PARTAGE
+  const ShareImage = () => {
+    alert("Transférer Image");
+  };
+
+  // 📤 ENVOYER
+  const  PartagerImage = () => {
+    alert("Partager Image ");
+  };
+
+
+
+
+
+
+
   return (
 
     <>
@@ -20,16 +62,17 @@ export default function Profil() {
         </div>
 
 
-<div id="mid-section">
+<div className="section-Z">
  
-  <Link id="link-D" to="/accueil"> <i className="ri-home-line">accueil</i> </Link> <br /> <br />
-  <Link id="link-D" to="/communautes"> <i className="ri-group-line">communautes</i> </Link>  <br /> <br />
-  <Link id="link-D" to="/message">  <i className="ri-chat-search-line">message</i> </Link>  <br /> <br />
-  <Link id="link-D" to="/notifications"> <i className="ri-home-line">notifications</i> </Link> <br /> <br />
-  <Link id="link-D" to="/profil">  <i className="ri-user-line">profil</i> </Link>
+        <Link to="/accueil"> <i id="icone-1" className="ri-home-line"></i> </Link> <br />
+        <Link to="/communautes"> <i id="icone-1" className="ri-group-line"></i> </Link> <br />
+        <Link to="/message"> <i id="icone-1" className="ri-chat-2-line"></i> </Link> <br />
+        <Link to="/notifications">  <i id="icone-1" className="ri-notification-line"></i> </Link> <br />
+        <Link to="/profil"> <i id="icone-1"  className="ri-user-line"></i> </Link> <br />
+     
+  </div>
 
-</div>
-<div id="section">
+<div id="BOX">
   
   <div>
       <img className="img-A"
@@ -40,7 +83,7 @@ export default function Profil() {
     
     <div>
       
-       <h3 className="first-title"> <b>CHOURAICHI LAILA</b></h3>
+       <h3 id="first-title"> <b>CHOURAICHI LAILA</b></h3>
 
         </div>
                   
@@ -73,7 +116,7 @@ export default function Profil() {
     
     <div>
       
-       <h3 className="Last-title"> <b>CHOURAICHI LAILA</b></h3>
+       <h3 id="Last-title"> <b>CHOURAICHI LAILA</b></h3>
         <p className="First-p"> laila chouraichi</p>
 
         </div>
@@ -102,15 +145,30 @@ export default function Profil() {
          
     
       
+   {/* 🔥 ICÔNES (UI + UX) */}
+            <div id="icone">
 
-          
-   <div className="icone">
-        <i id="i-6" className="ri-heart-line"></i>
-        <i id="i-7" className="ri-chat-ai-line"></i>
-        <i id="i-8" className="ri-exchange-funds-line"></i>
-        <i id="i-9" className="ri-send-ins-line"> </i>
-      </div>
+            <i id="like-icon"
+               className="ri-heart-line"
+              onClick={LikeImage}
+            ></i>
 
+            <i id="comment-icon"
+              className="ri-chat-ai-line"
+              onClick={CommenterImage}
+            ></i>
+
+            <i id="share-icon"
+              className="ri-exchange-funds-line"
+              onClick={ShareImage}
+            ></i> 
+
+            <i id="send-icon"
+              className="ri-share-line"
+              onClick={PartagerImage}
+            ></i>
+
+          </div>
   
     </div>
 
