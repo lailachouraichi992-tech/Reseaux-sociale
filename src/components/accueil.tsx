@@ -1,354 +1,104 @@
 import "../styles/accueil.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+
 export default function Accueil() {
+
+  // 📌 Données des posts
+  const [posts, setPosts] = useState([
+    { id: 1, video: "/video/video1.mp4", likes: 0 },
+    { id: 2, video: "/video/video6.mp4", likes: 0 },
+    { id: 3, video: "/video/video3.mp4", likes: 0 },
+    { id: 4, video: "/video/video7.mp4", likes: 0 },
+  ]);
+
+  // ❤️ LIKE
+  const likePost = (id) => {
+    const updatedPosts = posts.map((post) =>
+      post.id === id ? { ...post, likes: post.likes + 1 } : post
+    );
+    setPosts(updatedPosts);
+  };
+
+  // 💬 COMMENTAIRE
+  const CommentePost = () => {
+    alert("Commenter le post");
+  };
+
+  // 🔁 PARTAGE
+  const sharePost = () => {
+    alert("Revoyer le post");
+  };
+
+  // 📤 ENVOYER
+  const sendPost = () => {
+    alert("Partager le post");
+  };
+
   return (
+    <div>
 
-    <>
+      {/* 🔝 HEADER */}
+      <div className="right-section">
+        <i id="icon-1"  className="ri-threads-fill"></i>
+        <i id="icon-2" className="ri-notification-line"></i>
+        <input className="First-input" type="text" placeholder="Rechercher..." />
+      </div>
 
-<body>
+      {/* 📌 MENU */}
+      <div className="menu">
+        <Link to="/accueil"> <i className="ri-home-line"></i> </Link> <br />
+        <Link to="/communautes"> <i className="ri-group-line"></i> </Link> <br />
+        <Link to="/message"> <i className="ri-chat-2-line"></i> </Link> <br />
+        <Link to="/notifications">  <i className="ri-notification-line"></i> </Link> <br />
+        <Link to="/profil"> <i className="ri-user-line"></i> </Link> <br />
+      </div>
 
+      {/* 📱 POSTS */}
+      {posts.map((post) => (
+        <div id="Section" key={post.id}>
 
-<div className="right-section">
+          <img
+            className="img-A"
+            src="/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif"
+            alt="profil"
+          />
 
-  <i id="icon-1" className="ri-threads-fill"></i>
+          <h3 className="first-title">CHOURAICHI LAILA</h3>
 
-<i id="icon-2" className="ri-notification-line"></i>
-     <input className="First-input" type="text" placeholder="text" />
+          <video className="first-Video" controls>
+            <source src={post.video} type="video/mp4" />
+          </video>
+
+          {/* 🔥 ICÔNES (UI + UX) */}
+          <div id="icone">
+
+            <i id="like-icon"
+              className="ri-heart-line"
+              onClick={() => likePost(post.id)}
+            ></i>
+            <span>{post.likes}</span>
+
+            <i id="comment-icon"
+              className="ri-chat-ai-line"
+              onClick={CommentePost}
+            ></i>
+
+            <i id="share-icon"
+              className="ri-exchange-funds-line"
+              onClick={sharePost}
+            ></i>
+
+            <i id="send-icon"
+              className="ri-send-plane-line"
+              onClick={sendPost}
+            ></i>
+
+          </div>
 
         </div>
-<div id="BOX-2">
- 
-   
-  <Link className="link-D" to="/accueil"> <i className="ri-home-line">accueil</i> </Link> <br /> <br />
-  <Link className="link-D" to="/communautes"> <i className="ri-group-line">communautes</i> </Link>  <br /> <br />
-  <Link className="link-D" to="/message">  <i className="ri-chat-search-line">message</i> </Link>  <br /> <br />
-  <Link className="link-D" to="/notifications"> <i className="ri-home-line">notifications</i> </Link> <br /> <br />
-  <Link className="link-D" to="/profil">  <i className="ri-user-line">profil</i> </Link>
+      ))}
 
-</div>
-
-<div id="section">
-      
-    <div>
-      <img className="img-A"
-        src="/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif"
-        alt="bright image1"
-        />
-
-
-  
     </div>
-    
-    <div>
-      
-       <h3 className="first-title"> <b>CHOURAICHI LAILA</b></h3>
-      
-    </div>
-
-      <div className="continer-L">
-
-        <video className="first-Video"  controls>
-        <source src="/video/video1.mp4" type="video/mp4"></source>
-        
-          </video>  
-      </div>
-
-
-    <div className="icone">
-  
-  <i id="i-6" className="ri-heart-line"></i>
-  <i id="i-7" className="ri-chat-ai-line"></i>
-  <i id="i-8" className="ri-exchange-funds-line"></i>
-  <i id="i-9" className="ri-send-plane-line"></i>
-</div>
-
-  </div>
-
-        
-<div className="section">
-      
-    <div>
-      <img className="img-A"
-        src="/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif"
-        alt="bright image1"
-        />
-    </div>
-    
-    <div>
-      
-       <h3 className="first-title"> <b>CHOURAICHI LAILA</b></h3>
-      
-    </div>
-
-      <div className="continer-L">
-
-        <video className="first-Video"  controls>
-        <source src="/video/video6.mp4" type="video/mp4"></source>
-        
-          </video>  
-      </div>
-
-  
-
-          
-   <div className="icone">
-        <i id="i-6" className="ri-heart-line"></i>
-        <i id="i-7" className="ri-chat-ai-line"></i>
-        <i id="i-8" className="ri-exchange-funds-line"></i>
-        <i id="i-9" className="ri-send-ins-line"> </i>
-      </div>
-
-      
-  </div>
-
-
-<div className="section">
-      
-    <div>
-      <img className="img-A"
-        src="/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif"
-        alt="bright image1"
-        />
-    </div>
-    
-    <div>
-      
-       <h3 className="first-title"> <b>CHOURAICHI LAILA</b></h3>
-      
-    </div>
-
-      <div className="continer-L">
-
-        <video className="first-Video"  controls>
-        <source src="/video/video3.mp4" type="video/mp4"></source>
-        
-          </video>  
-      </div>
-
- 
-
-          
-   <div className="icone">
-        <i id="i-6" className="ri-heart-line"></i>
-        <i id="i-7" className="ri-chat-ai-line"></i>
-        <i id="i-8" className="ri-exchange-funds-line"></i>
-        <i id="i-9" className="ri-send-ins-line"> </i>
-      </div>
-
-  </div>
-
-  
-<div className="section">
-      
-    <div>
-      <img className="img-A"
-        src="/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif"
-        alt="bright image1"
-        />
-    </div>
-    
-    <div>
-      
-       <h3 className="first-title"> <b>CHOURAICHI LAILA</b></h3>
-      
-    </div>
-
-      <div className="continer-L">
-
-        <video className="first-Video"  controls>
-        <source src="/video/video7.mp4" type="video/mp4"></source>
-        
-          </video>  
-      </div>
-
-
-          
-   <div className="icone">
-        <i id="i-6" className="ri-heart-line"></i>
-        <i id="i-7" className="ri-chat-ai-line"></i>
-        <i id="i-8" className="ri-exchange-funds-line"></i>
-        <i id="i-9" className="ri-send-ins-line"> </i>
-      </div>
-
-  </div>
-
-  
-<div className="section">
-      
-    <div>
-      <img className="img-A"
-        src="/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif"
-        alt="bright image1"
-        />
-    </div>
-    
-    <div>
-      
-       <h3 id="first-title"> CHOURAICHI LAILA</h3>
-      
-    
-
-
-        <video className="first-Video"  controls>
-        <source src="/video/video5.mp4" type="video/mp4"></source>
-          </video>  
-      </div>
-
- 
-          
-   <div className="icone">
-        <i id="i-6" className="ri-heart-line"></i>
-        <i id="i-7" className="ri-chat-ai-line"></i>
-        <i id="i-8" className="ri-exchange-funds-line"></i>
-        <i id="i-9" className="ri-send-ins-line"> </i>
-      </div>
-  </div>
-
-  
-<div className="section">
-      
-    <div>
-      <img className="img-A"
-        src="/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif"
-        alt="bright image1"
-        />
-    </div>
-    
-    <div>
-      
-       <h3 id="first-title"> <b>CHOURAICHI LAILA</b></h3>
-      
-    </div>
-
-      <div className="continer-L">
-
-        <video className="first-Video"  controls>
-        <source src="/video/video12.mp4" type="video/mp4"></source>
-        
-          </video>  
-      </div>
-
-
-          
-          
-   <div className="icone">
-        <i id="i-6" className="ri-heart-line"></i>
-        <i id="i-7" className="ri-chat-ai-line"></i>
-        <i id="i-8" className="ri-exchange-funds-line"></i>
-        <i id="i-9" className="ri-send-ins-line"> </i>
-      </div>
-
-  </div>
-
-  
-<div className="section">
-      
-    <div>
-      <img className="img-A"
-        src="/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif"
-        alt="bright image1"
-        />
-    </div>
-    
-    <div>
-      
-       <h3 className="first-title"> <b>CHOURAICHI LAILA</b></h3>
-      
-    </div>
-
-      <div className="continer-L">
-
-        <video className="first-Video"  controls>
-        <source src="/video/video3.mp4" type="video/mp4"></source>
-        
-          </video>  
-      </div>
-
-
-          
-   <div className="icone">
-        <i id="i-6" className="ri-heart-line"></i>
-        <i id="i-7" className="ri-chat-ai-line"></i>
-        <i id="i-8" className="ri-exchange-funds-line"></i>
-        <i id="i-9" className="ri-send-ins-line"> </i>
-      </div>
-
-      
-  </div>
-        
-
-<div className="section">
-      
-    <div>
-      <img className="img-A"
-        src="/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif"
-        alt="bright image1"
-        />
-    </div>
-    
-    <div>
-      
-       <h3 className="first-title"> <b>CHOURAICHI LAILA</b></h3>
-      
-    </div>
-
-      <div className="continer-L">
-
-        <video className="first-Video"  controls>
-        <source src="/video/video11.mp4" type="video/mp4"></source>
-        
-          </video>  
-      </div>
-
-   
-
-          
-   <div className="icone">
-        <i id="i-6" className="ri-heart-line"></i>
-        <i id="i-7" className="ri-chat-ai-line"></i>
-        <i id="i-8" className="ri-exchange-funds-line"></i>
-        <i id="i-9" className="ri-send-ins-line"> </i>
-      </div>
-
-  </div>
-        
-
-<div className="section">
-      
-    <div>
-      <img className="img-A"
-        src="/img/amie/homme-gai-tenant-icone-facebook_53876-71093.avif"
-        alt="bright image1"
-        />
-    </div>
-    
-    <div>
-      
-       <h3 className="first-title"> <b>CHOURAICHI LAILA</b></h3>
-      
-    </div>
-
-      <div className="continer-L">
-
-        <video className="first-Video"  controls>
-        <source src="/video/video4.mp4" type="video/mp4"></source>
-        
-          </video>  
-      </div>
-
-
-          
-   <div className="icone">
-        <i id="i-6" className="ri-heart-line"></i>
-        <i id="i-7" className="ri-chat-ai-line"></i>
-        <i id="i-8" className="ri-exchange-funds-line"></i>
-        <i id="i-9" className="ri-send-ins-line"> </i>
-      </div>
-
-  </div>
-        
-</body>
-
-    </>
   );
 }
